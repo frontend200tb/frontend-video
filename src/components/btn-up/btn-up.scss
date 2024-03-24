@@ -1,0 +1,18 @@
+.btn-up {
+  padding: 10px;
+  position: fixed;
+  bottom: 50px;
+  right: 50px;
+  opacity: 50%;
+  font-size: 20px;
+  cursor: pointer;
+  color: #FFF;
+  border: 2px white solid;
+  border-radius: 10px;
+  background-color: #222;
+  transition: opacity 1s;
+}
+
+.btn-up:hover {
+  opacity: 100%;
+}

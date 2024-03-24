@@ -1,0 +1,39 @@
+/*********************
+MAIN
+*********************/
+
+.main__aside {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.main {
+  flex-grow: 1;
+  min-width: 320px;
+  vertical-align: top;
+}
+
+/* Конец Main */
+
+.btn-back {
+  display: inline-block;
+  margin: 10px;
+  padding: 5px 10px;
+  font-size: 20px;
+  cursor: pointer;
+  color: #FFF;
+  border: 2px white solid;
+  border-radius: 10px;
+  background-color: #222;
+}
+
+.btn-back:hover {
+  background-color: #888;
+}
+
+.certificate {
+  width: 100%;
+}

@@ -1,0 +1,40 @@
+/*********************
+Global
+*********************/
+
+* {
+  box-sizing: border-box;
+}
+
+::selection {
+  /* псевдокласс выделения */
+  color: #fff;
+  background-color: #2B7DED;
+}
+
+/* font*/
+html {
+  font-family: 'Segoe UI', 'SegoeUI', 'Helvetica' , 'Arial', sans-serif;
+  font-size: 16px;
+  scroll-behavior: smooth;
+}
+
+@media (max-width: 992px) {
+  html {
+    font-size: 1rem;
+  }
+}
+
+//мобильная версия
+@media (max-width: 580px) {
+  html {
+    font-size: 0.8rem;
+  }
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* Конец Global */

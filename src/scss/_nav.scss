@@ -1,0 +1,54 @@
+/*********************
+nav
+*********************/
+
+.nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-end;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding: 10px 0;
+  text-align: center;
+  border: 5px solid white;
+  border-radius: 20px;
+  box-shadow: 4px 6px #222;
+  /* тень на 4px вправо и 6px вниз */
+
+  & a {
+    padding: 10px;
+    text-decoration: none;
+    font-size: 1.2em;
+    color: #fff;
+    border: 5px solid white;
+    border-radius: 20px;
+    box-shadow: 4px 6px #222;
+  }
+
+  & a.active {
+    font-size: 1.5em;
+  }
+}
+
+#main-nav {
+  margin-bottom: 10px;
+}
+
+//мобильная версия
+@media (max-width: 580px) {
+  .nav {
+    padding: 0;
+    border: none;
+    box-shadow: none;
+
+    & a {
+      padding: 5px;
+      border: 1px solid white;
+      border-radius: 5px;
+      box-shadow: 4px 6px #222;
+    }
+  }
+}
+
+/* Конец Nav */

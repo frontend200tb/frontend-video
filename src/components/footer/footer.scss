@@ -1,0 +1,26 @@
+/*********************
+Footer
+*********************/
+
+.footer {
+  padding: 0.7em;
+  border: 5px solid white;
+  border-radius: 20px;
+  box-shadow: 4px 6px;
+}
+
+.footer__logo {
+  font-size: 30px;
+  font-weight: bold;
+  font-family: monospace;
+  text-align: center;
+}
+
+//мобильная версия
+@media (max-width: 580px) {
+  .footer__logo {
+    font-size: 20px;
+  }
+}
+
+/* Конец Footer */

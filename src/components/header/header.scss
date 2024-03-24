@@ -1,0 +1,26 @@
+/*********************
+header__first-row
+*********************/
+
+.header__first-row {
+  display: flex;
+  margin-bottom: 16px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  font-family: monospace, sans-serif;
+}
+
+.header__logo {
+  display: block;
+  margin: 0;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+}
+
+.header__logo a,
+.header__logo a:hover,
+.header__logo a:visited {
+  color: white;
+}
+/* Конец header__first-row */

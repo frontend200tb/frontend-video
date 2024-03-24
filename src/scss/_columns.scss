@@ -1,0 +1,68 @@
+/*********************
+Columns
+*********************/
+
+.columns {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+
+  & .columns__item {
+    padding: 10px;
+    width: 320px;
+    flex-grow: 1; // все блоки одинаковой ширины
+    vertical-align: top;
+    text-align: left;
+    border: 5px solid white;
+    border-radius: 20px;
+    box-shadow: 4px 6px;
+  }
+
+  & .columns__item h3 {
+    margin: 10px 0;
+    padding: 5px;
+    border-radius: 10px;
+    box-shadow: 4px 6px;
+  }
+
+  & .columns__item ul {
+    margin: 0;
+    padding: 0;
+  }
+
+  & .columns__item li {
+    margin: 5px 0;
+    padding: 5px;
+    list-style: none;
+    border-radius: 10px;
+    box-shadow: 4px 6px;
+  }
+
+  & .columns__item li:nth-child(odd) {
+    background-color: antiquewhite;
+  }
+
+  & .columns__item li:nth-child(even) {
+    background-color: #f8d6a9;
+  }
+
+  & .columns__item li.over {
+    background-color: #af8650;
+  }
+}
+
+@media (min-width: 1000px) {
+  .columns {
+    flex-wrap: nowrap;
+  }
+}
+
+@media (min-width: 1400px) {
+  .columns__item {
+    width: 440px;
+  }
+}
+
+/* Конец Columns */

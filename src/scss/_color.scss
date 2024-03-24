@@ -1,0 +1,246 @@
+/****************
+Фоновые цвета
+****************/
+
+
+/* переменные для цветов */
+:root {
+  --red: #dc143c;
+  --red-dark: #b01030;
+  --red-light: #ee3e61;
+  --sand: #e2946f;
+  --sand-dark: #e2946f;
+  --sand-light: #e8a98b;
+  --yellow: #f0b200;
+  --yellow-dark: #795b16;
+  --yellow-light: #ffcc20;
+  --olive: #808000;
+  --olive-dark: #585806;
+  --olive-light: #bebe23;
+  --green: #008000;
+  --green-dark: #006600;
+  --green-light: #00a000;
+  --dodgerblue: #1e90ff;
+  --dodgerblue-dark: #0074e4;
+  --dodgerblue-light: #65b3ff;
+  --blue: #0000ff;
+  --blue-dark: #0000ff;
+  --blue-light: #0088ff;
+  --brown: #8B4513;
+  --brown-dark: #8B4513;
+  --brown-light: #c08457;
+  --bg-dark1: #222;
+  --txt-dark1: #222;
+
+  --silver: #c0c0c0;
+  --silver-dark: #A9A9A9;
+  --silver-light: #D3D3D3;
+}
+
+
+/* красный */
+.page_red {
+  background-color: var(--red-dark);
+}
+
+.page_red .nav a.active,
+.page_red .nav a:hover,
+.page_red aside a.active,
+.page_red aside a:hover,
+.page_red .columns h3,
+.page_red .list h3,
+li.red {
+  background-color: var(--red-light);
+}
+
+.page_red .list h2 {
+  background-color: var(--red);
+}
+
+/* красный */
+
+
+/* песочный*/
+.page_sand {
+  background-color: var(--sand-dark);
+}
+
+.page_sand .nav a.active,
+.page_sand .nav a:hover,
+.page_sand aside a.active,
+.page_sand aside a:hover,
+.page_sand .columns h3,
+.page_sand .list h3 {
+  background-color: var(--sand-light);
+}
+
+.page_sand .list h2 {
+  background-color: var(--sand);
+}
+
+/* песочный */
+
+
+/* желтый */
+.page_yellow {
+  background-color: var(--yellow-dark);
+}
+
+.page_yellow .nav a.active,
+.page_yellow .nav a:hover,
+.page_yellow aside a:hover,
+.page_yellow aside a.active,
+.page_yellow .columns h3,
+.page_yellow .list h3,
+li.yellow {
+  background-color: var(--yellow-light);
+}
+
+.page_yellow .list h2 {
+  background-color: var(--yellow);
+}
+
+/* желтый */
+
+
+/* оливковый */
+.page_olive {
+  background-color: var(--olive-dark);
+}
+
+.page_olive .nav a.active,
+.page_olive .nav a:hover,
+.page_olive aside a:hover,
+.page_olive aside a.active,
+.page_olive .columns h3,
+.page_olive .list h3,
+li.olive {
+  background-color: var(--olive-light);
+}
+
+.page_olive .list h2 {
+  background-color: var(--olive);
+}
+
+/* оливковый */
+
+
+/* зеленый */
+.page_green {
+  background-color: var(--green-dark);
+}
+
+.page_green .nav a.active,
+.page_green .nav a:hover,
+.page_green aside a.active,
+.page_green aside a:hover,
+.page_green .columns h3,
+.page_green .list h3,
+li.green {
+  background-color: var(--green-light);
+}
+
+.page_green .list h2 {
+  background-color: var(--green);
+}
+
+/* зеленый */
+
+
+/* dodgerblue защитно-синий */
+.page_dodgerblue {
+  background-color: var(--dodgerblue-dark);
+}
+
+.page_dodgerblue .nav a.active,
+.page_dodgerblue .nav a:hover,
+.page_dodgerblue aside a.active,
+.page_dodgerblue aside a:hover,
+.page_dodgerblue .columns h3,
+.page_dodgerblue .list h3,
+li.dodgerblue {
+  background-color: var(--dodgerblue-light);
+}
+
+.page_dodgerblue .list h2 {
+  background-color: var(--dodgerblue);
+}
+
+/* dodgerblue защитно-синий */
+
+
+/* синий */
+.page_blue {
+  background-color: var(--blue-dark);
+  /* синий цвет */
+}
+
+.page_blue .nav a.active,
+.page_blue .nav a:hover,
+.page_blue aside a.active,
+.page_blue aside a:hover,
+.page_blue .columns h3,
+.page_blue .list h3,
+.li_blue {
+  background-color: var(--blue-light);
+  /* светло-синий цвет */
+}
+
+.page_blue .list h2 {
+  background-color: var(--blue);
+}
+
+/* синий */
+
+
+/* коричневый */
+.page_brown {
+  background-color: var(--brown-dark);
+  /* темно-коричневый цвет */
+}
+
+.page_brown .nav a.active,
+.page_brown .nav a:hover,
+.page_brown aside a.active,
+.page_brown aside a:hover,
+.page_brown .columns h3,
+.page_brown .list h3,
+.li_brown {
+  background-color: var(--brown-light);
+  /* светло-коричневый цвет */
+}
+
+.page_brown .list h2 {
+  background-color: var(--brown);
+  /* коричневый цвет */
+}
+
+/* коричневый */
+
+
+/* серебряный */
+.page_silver {
+  background-color: var(--silver-dark);
+  /* темно-серебряный цвет */
+}
+
+.page_silver .nav a.active,
+.page_silver .nav a:hover,
+.page_silver aside a.active,
+.page_silver aside a:hover,
+.page_silver .columns h3,
+.page_silver .list h3,
+.li_silver {
+  background-color: var(--silver-light);
+  /* светло-серебряный цвет */
+}
+
+.page_silver .list h2 {
+  background-color: var(--silver);
+  /* серебряный цвет */
+}
+
+/* серебряный */
+
+
+/* Конец - Фоновые цвета */

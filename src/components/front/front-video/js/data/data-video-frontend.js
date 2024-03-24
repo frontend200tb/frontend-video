@@ -1,0 +1,87 @@
+const dataVideoFrontend = [
+
+  {
+    id: 1,
+    year: 2015,
+    date: '',
+    category: 'theme',
+    theme: 'frontend',
+    title: 'Онлайн курсы HTML CSS JavaScript',
+    author: '',
+    name: 'GoIT',
+    numberLessons: '',
+    time_h_m: [110, 0],
+    size: '25.3 gb',
+    isLearned: false,
+    dateLearned: '',
+  },
+
+  {
+    id: 2,
+    year: 2015,
+    date: '',
+    category: 'theme',
+    theme: 'frontend',
+    title: '2 семестр Фронтенд',
+    author: 'Егор Дыдыкин',
+    name: 'mail.ru',
+    numberLessons: '',
+    time_h_m: [8, 40],
+    size: '4.5 gb',
+    isLearned: false,
+    dateLearned: '',
+  },
+
+  {
+    id: 3,
+    year: 2016,
+    date: '',
+    category: 'theme',
+    theme: 'frontend',
+    title: 'Frontend. HTML CSS JavaScript',
+    author: '',
+    name: 'GoIT',
+    numberLessons: '',
+    time_h_m: [110, 0],
+    size: '24.7 gb',
+    isLearned: false,
+    dateLearned: '',
+  },
+
+  {
+    id: 4,
+    year: 2016,
+    date: '',
+    category: 'theme',
+    theme: 'frontend',
+    title: 'Инструменты Front-End разработчика',
+    author: 'Андрей Бернацкий',
+    name: 'WebForMyself',
+    numberLessons: '',
+    time_h_m: [0, 0],
+    size: '1.6 gb',
+    isLearned: false,
+    dateLearned: '',
+  },
+
+  {
+    id: 5,
+    year: 2017,
+    date: '',
+    category: 'theme',
+    theme: 'frontend',
+    title: '2 семестр Фронтенд',
+    author: 'Анатолий Остапенко',
+    name: 'mail.ru',
+    numberLessons: '',
+    time_h_m: [24, 28],
+    size: '5.1 gb',
+    isLearned: false,
+    dateLearned: '',
+  },
+
+  {},
+
+];
+
+export default dataVideoFrontend;

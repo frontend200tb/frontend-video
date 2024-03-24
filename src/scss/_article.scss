@@ -1,0 +1,67 @@
+/*********************
+Article
+*********************/
+/* для статьи на странице*/
+.article {
+  margin: 10px;
+  padding: 10px;
+  border-radius: 20px;
+  background-color: antiquewhite;
+
+  & h3 {
+    margin: 5px;
+    padding: 5px;
+    border-radius: 0;
+    box-shadow: none;
+  }
+
+  & a {
+    font-weight: bold;
+  }
+}
+
+/* оглавление страницы со ссылками на статьи идет в самом начале */
+.article__contents {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  column-gap: 20px;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 20px;
+  background-color: tan;
+
+  & p {
+    line-height: 20px;
+  }
+
+  & a {
+    font-weight: 700;
+    text-decoration: none;
+    color: #222;
+  }
+
+  & a,
+  & a:visited {
+    color: #222;
+  }
+
+  & a:hover {
+    text-decoration: underline;
+  }
+}
+
+.contents__link {
+  margin: 10px;
+  padding: 10px;
+  min-width: 70px;
+  border: 1px solid white;
+  border-radius: 20px;
+  background-color: antiquewhite;
+}
+
+.anchor {
+  margin-top: -95px;
+  padding-top: 95px;
+}
+/* /Справочник по HTML тегам */
